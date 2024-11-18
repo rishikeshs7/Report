@@ -1,0 +1,61 @@
+/* Modern Page Container */
+.page-container {
+    width: 8.5in; /* Standard A4 width */
+    height: 11in; /* Standard A4 height */
+    border-radius: 12px; /* Rounded corners for a modern look */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Modern shadow */
+    overflow: hidden; /* Clip any content that overflows the borders */
+    padding: 1in;
+    position: relative;
+  }
+  
+  /* Content alignment */
+  .content-wrapper, .content {
+    text-align: left;
+  }
+  
+  .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24pt;
+    margin-bottom: 1em;
+  }
+  
+  .section {
+    margin-bottom: 1em;
+  }
+  
+  .sub-section p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10pt;
+  }
+  
+  .page-number {
+    margin-left: auto;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Full width of the page container */
+    font-size: 10pt;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0; /* Space around the footer content */
+  }
+  
+  .footer::before {
+    content: "";
+    position: absolute;
+    top: 0; /* Line is positioned at the top of the footer */
+    left: 0;
+    width: 100%; /* Line spans the full width of the page */
+    height: 1px; /* Line thickness */
+    background-color: #ccc; /* Line color */
+  }
+  
+  

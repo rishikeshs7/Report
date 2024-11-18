@@ -1,0 +1,124 @@
+.page-container {
+    width: 8.5in; /* Standard A4 width */
+    height: 11in; /* Standard A4 height */
+    border-radius: 12px; /* Rounded corners for a modern look */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Modern shadow */
+    overflow: hidden; /* Clip any content that overflows the borders */
+    padding: 1in;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content fills the entire height */
+  }
+  
+  .content {
+    text-align: left;
+    flex: 1; /* Ensures content stretches to fill the available space */
+  }
+  
+  .section-title {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  
+  .sub-section {
+    margin-bottom: 1em;
+  }
+  
+  .sub-section h3 {
+    font-size: 14pt;
+    margin-bottom: 0.5em;
+  }
+  
+  .sub-section p {
+    font-size: 12pt;
+    line-height: 1.5;
+    margin-bottom: 0.5em;
+  }
+  
+  ul, ol {
+    margin: 0;
+    padding-left: 1.5em;
+  }
+  
+  li {
+    font-size: 10pt;
+    line-height: 1.5;
+    margin-bottom: 0.5em;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    font-size: 10pt;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .footer::before {
+    content: "";
+    width: 100%; /* Centered line spans half the page width */
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 5px;
+  }
+  
+  .edit-icon {
+    font-size: 18px;
+    color: #007bff;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .edit-icon:hover {
+    color: #0056b3;
+    transform: scale(1.2);
+  }
+  
+  .edit-form textarea {
+    width: 350%;
+    height: 210px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+  }
+  
+  .edit-form button {
+    margin: -2px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .save-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .cancel-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-button:hover {
+    background-color: #c82333;
+  }
+  
+
+  

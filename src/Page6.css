@@ -1,0 +1,76 @@
+.page-container {
+    width: 8.5in; /* Standard A4 width */
+    height: 11in; /* Standard A4 height */
+    border-radius: 12px; /* Rounded corners for a modern look */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Modern shadow */
+    overflow: hidden; /* Clip any content that overflows the borders */
+    padding: 1in;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content fills the entire height */
+  }
+  
+  .content {
+    text-align: left;
+    flex: 1; /* Ensures content stretches to fill the available space */
+  }
+  
+  .section-title {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  
+  h3 {
+    font-size: 14pt;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  
+  p {
+    font-size: 10pt;
+    line-height: 1.5;
+    margin-bottom: 1em;
+  }
+  
+  .impact-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    font-size: 10pt;
+  }
+  
+  .impact-table th,
+  .impact-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .impact-table th {
+    font-weight: bold;
+    background-color: #f9f9f9;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 10pt;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .footer::before {
+    content: "";
+    width: 50%; /* Centered line spans half the page width */
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,49 @@
+.page-container {
+    width: 8.5in;
+    height: 11in;
+    margin: 20px auto; /* Add margin between pages */
+    padding: 1in;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    line-height: 1.5;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .content {
+    text-align: left;
+  }
+  
+  .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+    margin-bottom: 1em;
+  }
+  
+  .section {
+    margin-bottom: 1em;
+  }
+  
+  .sub-section p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10pt;
+  }
+  
+  .page-number {
+    margin-left: auto;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 10pt;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  

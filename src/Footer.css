@@ -1,0 +1,21 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 10pt;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center;
+    align-items: center; /* Center horizontally */
+    padding: 10px 0; /* Adjust spacing inside the footer */
+  }
+  
+  .footer::before {
+    content: ""; /* Creates the line above the page number */
+    width: 50%; /* Adjust the line's length */
+    height: 1px; /* Line thickness */
+    background-color: #ccc; /* Line color */
+    margin-bottom: 5px; /* Spacing between the line and the page number */
+  }
+  
